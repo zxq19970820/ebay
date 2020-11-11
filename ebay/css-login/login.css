@@ -1,0 +1,58 @@
+body{
+	background:url(../img/loginphoto.jpg);
+	background-size: contain;
+}
+.login-logo{
+	width: 100px;
+	height: 50px;
+}
+.login-header{
+	width: 600px;
+	height: 80px;
+	text-align: center;
+	margin: auto;
+	color: black;
+}
+.group{
+	width: 550px;
+	height: 375px;
+	margin: auto;
+	text-align: center;	
+}
+.agileinfo{
+	width: 600px;
+	height: 300px;	
+	padding: 20px;
+}
+.agile-ltext{
+	padding: 10px;
+	width: 400px;
+	height: 40px;
+	border-radius: 3px ;
+}
+.wthreelogin-text{
+	width: 400px;
+	height: 80px;
+}
+.wthreelogin-text ul li{
+	font-size: 20px;
+	list-style: none;
+}
+.about{
+	width: 160px;
+	height: 30px;
+	text-align: center;
+	margin-left: 20px;
+	
+}
+.p{
+	margin-left: -250px;
+	font-size: 20px;
+	padding: 20px;
+}
+.a1{
+	color: firebrick;
+}
+.a2{
+	color: #000000;
+}

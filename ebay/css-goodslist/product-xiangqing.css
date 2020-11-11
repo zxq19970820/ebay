@@ -1,0 +1,103 @@
+body{
+	/*--background:whitesmoke;*/
+}
+.fuzhe{
+	padding:0px;
+	margin:0px;
+	list-style: none;
+}
+.lbt{
+	position:absolute;
+	left:200px;
+	top:0px;
+}
+.lbt ul li{
+	position:absolute;
+	list-style: none;
+}
+.lbt ul li img{
+	width: 451px;
+	
+}
+
+.li{
+	opacity: 0.6;
+}
+.l1{
+	/* 20s即每张图片4s  100/20 5% = 1s*/
+	animation:l1 20s ease-in-out infinite;
+	 /*animation:名称 时间 过程 次数 */
+	/* -webkit-animation:l1 20s ease-in-out infinite; */
+}
+@keyframes l1{
+	0%{clip-path:polygon(0 0,0 0,0 100%,0 100%);}
+	20%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+@-webkit-keyframes l1{
+	0%{clip-path:polygon(0 0,0 0,0 100%,0 100%);}
+	20%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+.l2{
+	/* 20s即每张图片4s  100/20 5% = 1s*/
+	animation:l2 20s ease-in-out infinite;
+	 /*animation:名称 时间 过程 次数 */
+	 -webkit-animation:l2 20s ease-in-out infinite;
+}
+@keyframes l2{
+	0%{clip-path:polygon(0 0,0 0,100% 0,100% 0);}
+	20%{clip-path:polygon(0 0,0 0,100% 0,100% 0);}
+	40%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+@-webkit-keyframes l2{
+	0%{clip-path:polygon(0 0,0 0,100% 0,100% 0);}
+	20%{clip-path:polygon(0 0,0 0,100% 0,100% 0);}
+	40%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+.l3{
+	/* 20s即每张图片4s  100/20 5% = 1s*/
+	animation:l3 20s ease-in-out infinite;
+	 /*animation:名称 时间 过程 次数 */
+	 -webkit-animation:l3 20s ease-in-out infinite;
+}
+@keyframes l3{
+	0%{clip-path:polygon(0 0,0 0,0 0,0 0);}
+	40%{clip-path:polygon(0 0,0 0,0 0,0 0);}
+	60%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+@-webkit-keyframes l3{
+	0%{clip-path:polygon(0 0,0 0,0 0,0 0);}
+	40%{clip-path:polygon(0 0,0 0,0 0,0 0);}
+	60%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+.l4{
+	/* 20s即每张图片4s  100/20 5% = 1s*/
+	animation:l4 20s ease-in-out infinite;
+	 /*animation:名称 时间 过程 次数 */
+	 -webkit-animation:l4 20s ease-in-out infinite;
+}
+@keyframes l4{
+	0%{clip-path:polygon(100% 0,100% 0,0 100%,0 100%);}
+	60%{clip-path:polygon(100% 0,100% 0,0 100%,0 100%);}
+	80%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+	}
+@-webkit-keyframes l4{
+	0%{clip-path:polygon(100% 0,100% 0,0 100%,0 100%);}
+	60%{clip-path:polygon(100% 0,100% 0,0 100%,0 100%);}
+	80%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+.l5{
+	/* 20s即每张图片4s  100/20 5% = 1s*/
+	animation:l5 20s ease-in-out infinite;
+	 /*animation:名称 时间 过程 次数 */
+	 -webkit-animation:l5 20s ease-in-out infinite;
+}
+@keyframes l5{
+	0%{clip-path:polygon(50% 50%,50% 50%,50% 50%,50% 50%);}
+	80%{clip-path:polygon(50% 50%,50% 50%,50% 50%,50% 50%);}
+	100%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}
+@-webkit-keyframes l5{
+	0%{clip-path:polygon(50% 50%,50% 50%,50% 50%,50% 50%);}
+	80%{clip-path:polygon(50% 50%,50% 50%,50% 50%,50% 50%);}
+	100%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);}
+}

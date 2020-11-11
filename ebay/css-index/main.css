@@ -1,0 +1,185 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+.wz {
+
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.search {
+	width: 600px;
+	height: 30px;
+}
+
+#sub {
+	height: 40px;
+	width: 55px;
+	border-radius: 5px;
+	background-color: #005ea8;
+	color: white;
+}
+
+
+.gaoji{
+	position: relative;
+	margin-top: 0;
+	margin-left: 15px;
+	
+}
+
+.wz03 {
+	font-size: 25px;
+	font-family: "eras medium itc";
+}
+
+.pictures {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.pname {
+	display: flex;
+	justify-content: space-around;
+}
+
+#divs {
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	position: relative;
+	overflow: hidden;
+}
+
+.p1:hover {
+	cursor: pointer;
+	transform: scale(1.04, 1.04);
+	transition: transform 1s;
+	
+}
+
+
+.box00{
+	width:1349px ;
+	height: 331px;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+}
+.img00{
+	width: 100%;
+	height: 100%;
+}
+.mask00{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: -1349px;
+	
+}
+.cuxiao{
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	margin: 50px;
+	
+}
+.chakan{
+	width: 250px;
+	height: 70px;
+	color: white;
+	background-color: #C7254E;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 5px;
+}
+.box00:hover .mask00{
+	left: 0;
+	transition: left 0.5s;
+}
+
+
+
+.hr-1{
+	height:2px;
+	background-color:gray
+}
+
+
+.bigpicture03 {
+
+	display: flex;
+	justify-content: center;
+}
+
+.bigpicture04 {
+
+	display: flex;
+	justify-content: center;
+}
+
+
+.end-1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.buy {
+	list-style: none;
+}
+
+.sell {
+	list-style: none;
+}
+
+.son {
+	list-style: none;
+}
+
+.aboute {
+	list-style: none;
+}
+
+.help {
+	list-style: none;
+}
+
+
+
+.end-2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.tool {
+	list-style: none;
+}
+
+.trends {
+	list-style: none;
+}
+
+.community {
+	list-style: none;
+}
+
+.end div ul{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+

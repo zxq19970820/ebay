@@ -1,0 +1,64 @@
+body{
+	background-color: ghostwhite;
+}
+.col-sm-1{
+	text-align: center;
+}
+.horizontal{
+	width:750px;
+	border-color:orange ;
+}
+.global{
+	border: 1px gainsboro solid;
+	width: 750px;
+	height: 490px;
+	text-align: center;
+	margin: auto;
+	background: url(../img/zhucephoto.png);
+	background-size: contain;
+}
+.minbackground{
+	width: 500px;
+	height: 485px;
+	background: rgba(100,100,100,0.3);
+}
+.form-group{
+	width: 500px;
+	height: 80px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.checkbox{
+	width: 160px;
+	height: 20px;
+	margin-left: 160px;
+	text-align: left;
+	color: white;
+}
+.zhuce{
+	width: 160px;
+	height: 20px;
+	margin-left: 160px;
+	text-align: left;
+}
+.form-control{
+	width: 300px;
+	height: 30px;
+	border-radius: 3px ;
+}
+.control-label{
+	width: 160px;
+	height: 20px;
+	color: white;
+}
+.btn-default{
+	width: 300px;
+	height: 40px;
+	background-color: #FFA500;
+	color: white;
+	border-radius: 3px ;
+}
+.login{
+	margin-left: 600px;
+}

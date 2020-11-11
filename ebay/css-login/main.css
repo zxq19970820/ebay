@@ -1,0 +1,138 @@
+.head-bg {
+	width: 100%;
+	height: 40px;
+	background: #fc8012;
+}
+
+.head-01 {
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	font-family: "arial narrow";
+}
+
+.aa {
+	font-size: 35px;
+}
+
+.logo{
+	left: 100px;
+}
+
+.ab{
+	font-size: 35px;
+}
+.search{
+	height: 50px;
+	width: 500px;
+}
+.caidan01{
+	/* left: 60px; */
+}
+.sub{
+	height: 30px;
+	position: absolute;
+	left: 1121px;
+	
+}
+.head-02 {
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+}
+
+
+.dhl-dicheng {
+
+
+	
+	height: 40px;
+	background: #ffffff;
+
+
+
+}
+
+.wz {
+
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.search {
+	width: 600px;
+	height: 30px;
+}
+.wz03{
+	font-size: 25px;
+	font-family: "eras medium itc";
+}
+.pictures{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.pname{
+	display: flex;
+	justify-content: space-around;
+}
+
+.p1:hover{
+				cursor:pointer;
+				/* 鼠标变手 */
+				transform: translateY(-2px);
+				/* 鼠标移动到图片上  向y轴移动 */
+				box-shadow: 10px 10px 10px lightgrey;
+				transition: transform 1s,box-shadow 1s;
+			}
+
+.bigpicture03{
+	
+	display: flex;
+	justify-content: center;
+}
+.bigpicture04{
+	
+	display: flex;
+	justify-content: center;
+}
+.buy{
+	list-style: none;
+}
+.sell{
+	list-style: none;
+}
+.son{
+	list-style: none;
+}
+.aboute{
+	list-style: none;
+}
+.end-1{
+	display: flex;
+	justify-content: space-around;
+}
+.help{
+	list-style: none;
+}
+.tool{
+	list-style: none;
+}
+.trends{
+	list-style: none;
+}
+.community{
+	list-style: none;	
+}
+.end-2{
+	display: flex;
+	justify-content: space-around;
+}
+.h333{
+	font-size: 20px;
+	width: 70%;
+	height: 70%;
+	display: flex;
+	align-items: flex-end;
+}

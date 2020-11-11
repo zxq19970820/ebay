@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.bodycontent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content {
+    width: 948px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+/* 导航栏样式 */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    width: 18%;
+}
+
+.title {
+    margin-top: 12px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.header-right a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
+/* 内容部分 */
+
+
+/* 主块 */
+
+.main {
+    width: 948px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* 左半块 */
+
+.leftsection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 614px;
+    justify-content: flex-start;
+}
+
+
+/* 支付方式 */
+
+.paystyle {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    height: 257px;
+    margin-bottom: 10px;
+}
+
+
+/* 支付方式标题 */
+
+.ps-title {
+    height: 55px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.select-box {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 2px 16px 0;
+}
+
+.ps-title p {
+    line-height: 55px;
+    margin-left: 20px;
+}
+
+.credit {
+    width: 608px;
+    height: 94.28px;
+    margin-left: 2px;
+    border-bottom: 1px solid #ccc;
+}
+
+.credit2 {
+    height: 55px;
+    width: 608px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2px;
+    border-bottom: 1px solid #ccc;
+}
+
+.credit3 {
+    height: 55px;
+    width: 608px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.credit p {
+    margin: 16px 16px 0;
+}
+
+
+/* logo */
+
+.paylogo {
+    font-size: 23px;
+}
+
+
+/* address */
+
+.address {
+    height: 166px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.address ul {
+    list-style: none;
+    margin: 16px 19px 0;
+}
+
+.address span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.address a {
+    font-size: 12px;
+}
+
+.goods-info {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 16px 16px 0;
+    margin-bottom: 10px;
+}
+
+.bottom-box {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.detail-info {
+    margin-left: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 452px;
+    height: 72px;
+}
+
+.detail-info span {
+    margin-bottom: 7px;
+}
+
+.name .nums {
+    font-size: 14px;
+}
+
+.info-title,
+.price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-text {
+    font-size: 11px;
+}
+
+.footer {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+/* right */
+
+.rightsection {
+    margin-top: 15px;
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.summary {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    height: 370px;
+}
+
+.summary-container {
+    position: fixed;
+    top: 73px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 329px;
+    width: 322px;
+    border: 1px solid #ccc;
+}
+
+.summary-top {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 149px;
+    width: 282px;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 66px;
+    width: 100%;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wdight {
+    font-weight: 500;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 42.67px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.item-box {
+    color: #111820;
+    font: 12px sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 32.67px;
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+}
+
+.item-box span {
+    margin-left: 10px;
+}
+
+.button-put {
+    height: 48px;
+    width: 282px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #0654ba;
+    border: none;
+}
+
+.optionpay {
+    font-size: 14px;
+    color: #dd1e31;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+#ebay-money-back {
+    background: url(https://secureir.ebaystatic.com/cr/v/c1/payment-sprites-0.1.10.svg) 0 0 no-repeat;
+    width: 243.97px;
+    height: 27.75px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.bottom {
+    font-size: 12px;
+    margin-top: 5px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+				<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+				<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+				</head> 
+			<body>
+				<!--第一个商品-->
+				<div class="row" id="row" style="margin-top: 50px;">
+				  
+				</div>
+				
+				<script type="text/javascript">
+					$(function(){
+						var local=window.location.href;
+						var result = decodeURI(local);
+						
+						<!--获取该网页链接到的另一网页地址-->
+						inputvalue=result.substr(result.indexOf("=")+1);
+						
+						$.getJSON("js/product-list.json",function(data){
+							
+							var arrs=data.pros;
+							for(var i=0;i<arrs.length;i++){
+								
+								var proimg=arrs[i].proimg;
+								var proname=arrs[i].proname;
+								var price=arrs[i].price;
+								var href = arrs[i].href;
+								<!--查询网址是否有链接另一个页面的网址-->
+								if(result.indexOf("?")==-1){
+								  var pro="<div class='col-sm-4 col-md-3 col-lg-3' style='text-align:center'><div class='thumbnail-1'><img src='"+proimg+"' alt=''><div class='caption'><h3>"+proname+"</h3><p>"+price+"</p><p><a href="+href+" class='btn btn-primary' role='button'>商品预览</a> <a href='#' class='btn btn-default' role='button'>立即购买</a></p></div></div></div>";
+								  $("#row").append(pro);
+							  }else if(proname.indexOf(inputvalue)!=-1){
+									var pro="<div class='col-sm-4 col-md-3 col-lg-3'><div class='thumbnail-1'><img src='"+proimg+"' alt=''><div class='caption'><h3>"+proname+"</h3><p>"+price+"</p><p><a href='#' class='btn btn-primary' role='button'>商品预览</a> <a href='#' class='btn btn-default' role='button'>立即购买</a></p></div></div></div>";
+									$("#row").append(pro);
+								}
+						    }
+						});
+					})
+				</script>
+				<div class="dibu" style="display:flex;margin-top: 180px;margin-left:200px;" >
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://www.ebayinc.com/">关于eBay</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://www.ebayinc.com/">公告</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://www.ebayinc.com/">社区</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://community.ebay.com/">安全中心</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://www.ebayinc.com/">纠纷调解中心</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://pages.ebay.com/seller-center/index.html">卖家信息中心</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://www.ebayinc.com/">政策</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://www.ebaypartnernetwork.com/files/hub/en-US/index.html">合作伙伴</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://www.ebay.com/help/home">帮助与联系</a></div>
+					<div><a style="padding: 20px;text-decoration: none;color:gray;font-size: 100%;" href="https://pages.ebay.com/sitemap.html">网站导览</a></div>
+				</div>
+				
+				<footer style="margin-left:220px; padding-bottom: 10px;color:gray;margin-top: 20px;letter-spacing:1px;font-size: 80%;">
+				      <span> © 1995-2020 eBay Inc. 保留所有权利。用户协议、隐私权、Cookie 和 AdChoice</span>
+				</footer>
+			</body>
+		</html>

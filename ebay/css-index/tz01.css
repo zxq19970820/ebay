@@ -1,0 +1,102 @@
+.tzd01-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.tzd01-2 {}
+
+.liebiao {
+	list-style: none;
+	position: relative;
+	margin-left: 60px;
+}
+
+.hr-1 {
+	width: 1px;
+}
+
+#pict {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	left: 264px;
+	top: -911px;
+}
+
+#tzw {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	left: 264px;
+	top: -869px;
+}
+
+#pict-1 {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	left: 225px;
+	top: -765px;
+}
+
+#tzw-1 {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	left: 264px;
+	top: -710px;
+}
+
+#t-end {
+	background-color: white;
+	border: 3px solid #a1a1a1;
+	width: 80%;
+	height: 180px;
+	border-radius: 10px;
+	position: relative;
+	top: -630px;
+	left: 222px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.t-divs {
+	overflow: hidden;
+	width: 170px;
+	height: 170px;
+	position: relative;
+	border-radius: 86px;
+
+}
+
+.t-endp:hover {
+	cursor: pointer;
+	transform: scale(1.04, 1.04);
+	transition: transform 1s;
+}
+
+.t-endwz {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	position: relative;
+
+	margin-top: -630px;
+	margin-left: 233px;
+}
+.t-hr{
+	width: 2px;
+	color: #000000;
+}
+.abc{
+	display: flex;
+	justify-content: space-around;
+}
+.abc a{
+	color: #000000;
+}
